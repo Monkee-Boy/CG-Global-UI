@@ -5,6 +5,20 @@ Global UI styles for Camp Gladiator
 The CG Global UI is a universal design system developed to be the foundational framework for all major UI projects within the company. This framework should act as the base stylesheet for all major UI projects to ensure brand consistency and minimize code repetition.
 
 
+## Using this framework
+To use the framework, it can be added to any project as a dependancy. Using a dependancy manager like [bower](https://bower.io/) will ensure you can easily update the framework to the latest version at any time.
+
+**Sample bower.json:**
+```json
+  {
+    "name": "project-name",
+    "version": "1.0",
+    "dependencies": {
+      "cg-global-ui": "https://github.com/CampGladiator/CG-Global-UI.git#master",
+    }
+  }
+```
+
 ## Conventions and Architecture
 This framework should closely follow the BEM CSS architecture. You can learn more about BEM [here](http://getbem.com/introduction/)
 
