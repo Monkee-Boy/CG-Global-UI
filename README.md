@@ -4,8 +4,10 @@ Global UI styles for Camp Gladiator
 ## Introduction
 The CG Global UI is a universal design system developed to be the foundational framework for all major UI projects within the company. This framework should act as the base stylesheet for all major UI projects to ensure brand consistency and minimize code repetition.
 
+
 ## Conventions and Architecture
 This framework should closely follow the BEM CSS architecture. You can learn more about BEM [here](http://getbem.com/introduction/)
+
 
 ## Code Organization
 
