@@ -1,0 +1,24 @@
+{
+  "name": "cg-global-ui",
+  "version": "1.0.0",
+  "description": "Global Design Systems repository for Camp Gladiator",
+  "main": "Gruntfile.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CampGladiator/CG-Global-UI.git"
+  },
+  "author": "Nate Cornelius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CampGladiator/CG-Global-UI/issues"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.3.0"
+  }
+}
