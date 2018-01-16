@@ -54,17 +54,12 @@ To prevent contamination of the global styles, please separate out all styles th
 ```css
 /* global element */
 .btn {
-    border: 2px solid #c8102e;
-    background-color: #c8102e;
-    color: white;
-    font-size: 14px;
+    border-width: 2px;
+    border-style: solid;
     display: inline-block;
-    padding: 13px 48px;
     margin: 10px;
-    height: 42px;
     border-radius: 50px;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 700;
 }
   
