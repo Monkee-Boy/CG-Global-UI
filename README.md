@@ -21,10 +21,10 @@ To use the framework, it can be added to any project as a dependancy. Using a de
 ## Conventions and Architecture
 This framework should closely follow the BEM CSS architecture. You can learn more about BEM [here](http://getbem.com/introduction/)
 
-By breaking the site into standalone components, we are able to reuse those components in other sites with no recoding needed.
-
 ## Code Organization
 The global stylesheet should be divided into component sections. Each component should include any blocks, elements, and modifiers for that particular component. 
+
+By breaking the site into standalone components, we are able to reuse those components in other sites with minimal effort. This also means that should we decide to update the look of a specific component, we can update those styles here and those changes will be brought into all other projects automatically.
 
 Before each component's styles, add a comment section that describes the component. Include the common name of the component, followed by the word 'component'.
 
