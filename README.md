@@ -19,7 +19,9 @@ To use the framework, add it to your project as a dependancy and link the files 
 ```
 
 ```html
-<link href="[url_to_stylesheet]" ref="stylesheet">
+<head>
+    <link href="[url_to_stylesheet]" rel="stylesheet">
+    ...
 ```
 
 ## Conventions and Architecture
