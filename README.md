@@ -2,18 +2,20 @@
 Global UI styles for Camp Gladiator
 
 ## Introduction
-The CG Global UI is a universal design system developed to be the foundational framework for all major UI projects within the company. This stylesheet should act as the base stylesheet for all major UI projects to ensure brand consistency and minimize code repetition.
+The CG Global UI is a universal design system developed to be the foundational framework for all major UI projects within the company. This framework should act as the base stylesheet for all major UI projects to ensure brand consistency and minimize code repetition.
 
 ## Conventions and Architecture
-
+This framework should closely follow the BEM CSS architecture. You can learn more about BEM [here](http://getbem.com/introduction/)
 
 ## Code Organization
+
+**Media Queries:**
 
 
 ## Separations
 To prevent contamination of the global styles, please separate out all styles that arent specific to the global design system. Such code should be placed in a separate stylesheet that lives outside of this repository. By separating overrides to the general design system, we are able to minimize the amount of unnecessary code and keep the global stylesheet clean for other projects that use it. Again, this should only be done for rules that are not likely/able to be reused as a part of the global design system.
 
-**Example**
+**Example:**
 ```css
 /* global element */
   .btn {
@@ -31,7 +33,7 @@ To prevent contamination of the global styles, please separate out all styles th
       font-weight: 700;
   }
   
-/* the following selector is specific to a single site/page/app and should thus be moved into a seperate stylesheet outside of the global DSG */
+/* the following selector is specific to a single site/page/app and should thus be moved into a seperate stylesheet outside of the global framework */
   #hubspot-form-id-12345 .btn {
       line-height: 1;
       text-decoration: none;
