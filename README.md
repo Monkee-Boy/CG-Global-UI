@@ -24,7 +24,7 @@ This framework should closely follow the BEM CSS architecture. You can learn mor
 ## Code Organization
 The global stylesheet should be divided into component sections. Each component should include any blocks, elements, and modifiers for that particular component. 
 
-By breaking the site into standalone components, we are able to reuse those components in other sites with minimal effort. This also means that should we decide to update the look of a specific component, we can update those styles here and those changes will be brought into all other projects automatically.
+By breaking the site into standalone components, we are able to reuse those components in other sites with minimal effort. This also means that should we decide to update the look of a specific component, we can update those styles here and those changes will be brought into all other projects by simply updating that project to use latest version of the framework.
 
 Before each component's styles, add a comment section that describes the component. Include the common name of the component, followed by the word 'component'.
 
