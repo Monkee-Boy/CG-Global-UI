@@ -20,7 +20,7 @@ To use the framework, add it to your project as a dependancy and link the files 
 
 ```html
 <head>
-    <link href="[url_to_stylesheet]" rel="stylesheet">
+    <link rel="stylesheet" href="[url_to_stylesheet]">
     ...
 ```
 
