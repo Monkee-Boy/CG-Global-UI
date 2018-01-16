@@ -10,6 +10,7 @@ module.exports = function (grunt) {
             '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
             '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %> */',
         // Task configuration.
+        // Empties folders to start fresh
         concat: {
             options: {
                 banner: '<%= banner %>',
@@ -30,14 +31,10 @@ module.exports = function (grunt) {
             }
         },
         cssmin: {
-            target: {
-                files: [{
-                    expand: true,
-                    cwd: 'src/css',
-                    src: ['*.css', '!*.min.css'],
-                    dest: 'dist/css',
-                    ext: '.min.css'
-                }]
+            combine: {
+                files: {
+                    'dist/css/cg-global-ui.min.css': ['src/css/*.css'],
+                }
             }
         }
     });
