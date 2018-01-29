@@ -7,18 +7,20 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %> - ' +
             '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-            '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
-            '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %> */',
+            '* Copyright (c) <%= grunt.template.today("yyyy") %> by CampGladiator */ \n',
         // Task configuration.
-        // Empties folders to start fresh
         concat: {
             options: {
                 banner: '<%= banner %>',
                 stripBanners: true
             },
             dist: {
-                src: ['src/js/main.js', 'src/js/**/*.js'],
-                dest: 'dist/<%= pkg.name %>.js'
+                src: 'src/js/**/*.js',
+                dest: 'dist/js/<%= pkg.name %>.js'
+            },
+            css: {
+                src: ['src/css/reset.css', 'src/css/fonts.css', 'src/css/global.css'],
+                dest: 'dist/css/cg-global-ui.css'
             }
         },
         uglify: {
@@ -27,13 +29,13 @@ module.exports = function (grunt) {
             },
             dist: {
                 src: '<%= concat.dist.dest %>',
-                dest: 'dist/<%= pkg.name %>.min.js'
+                dest: 'dist/js/<%= pkg.name %>.min.js'
             }
         },
         cssmin: {
             combine: {
                 files: {
-                    'dist/css/cg-global-ui.min.css': ['src/css/*.css'],
+                    'dist/css/cg-global-ui.min.css': ['src/css/reset.css', 'src/css/fonts.css', 'src/css/global.css'],
                 }
             }
         }

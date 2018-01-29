@@ -41,10 +41,10 @@ Install the project dependancies using npm:
 ## Contributing to the project
 Once you have all dependancies installed, you are ready to make your updates to the codebase.
 
-Make your edits to files in the **/src** directory. When you are ready to push your code back to github, we need to copy minified versions of those files into the **/dist** directory. Grunt will handle all of the heavy lifting here. Just run the 'grunt' command and it will take care of this process for us:
+Make your edits to files in the **/src** directory. When you are ready to push your code back to github, we need to copy minified versions of those files into the **/dist** directory. Grunt will handle all of the heavy lifting here. Just run the ```grunt``` command in your cli and it will take care of this process for us:
 
 ```bash
-> grunt
+$ grunt
 ```
 
 ## Conventions and Architecture
@@ -91,4 +91,19 @@ To prevent contamination of the global styles, please separate out all styles th
     line-height: 1;
     text-decoration: none;
 }
+```
+
+## File Order
+While javascript can and should be written in a single file (src/js/global.js), **CSS** is divided into three different files: 
+```
+/src/css/reset.css
+/src/css/fonts.css 
+/src/css/global.css
+```
+
+Once the ```grunt``` command is called, these 3 files will be concatinated together in this order. A minified and unminified version of these files will now be available to consume via the ```/dist``` directory.
+
+```
+/dist/css/cg-global-ui.css
+/dist/css/cg-global-ui.min.css
 ```
