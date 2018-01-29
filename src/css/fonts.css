@@ -1,43 +1,43 @@
 @font-face {
   font-family: 'GothamBook';
-  src: url('//cgcdn.s3.amazonaws.com/fonts/GothamBook.eot'); /* IE9 Compat Modes */
-  src: url('//cgcdn.s3.amazonaws.com/fonts/GothamBook.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('//cgcdn.s3.amazonaws.com/fonts/GothamBook.woff') format('woff'), /* Modern Browsers */
-       url('//cgcdn.s3.amazonaws.com/fonts/GothamBook.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('//cgcdn.s3.amazonaws.com/fonts/GothamBook.svg#65526539dec42e535893223c14767f58') format('svg'); /* Legacy iOS */
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.eot');
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.woff') format('woff'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.ttf') format('truetype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.svg') format('svg');
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Gotham';
-  src: url('//cgcdn.s3.amazonaws.com/fonts/GothamMedium.eot'); /* IE9 Compat Modes */
-  src: url('//cgcdn.s3.amazonaws.com/fonts/GothamMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('//cgcdn.s3.amazonaws.com/fonts/GothamMedium.woff') format('woff'), /* Modern Browsers */
-       url('//cgcdn.s3.amazonaws.com/fonts/GothamMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('//cgcdn.s3.amazonaws.com/fonts/GothamMedium.svg#0fbe3a09622d8fb1f474f00917396ba1') format('svg'); /* Legacy iOS */
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Medium.eot');
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Medium.woff') format('woff'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Medium.ttf') format('truetype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Medium.svg') format('svg');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'GothamBold';
-  src: url('//cgcdn.s3.amazonaws.com/fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
-  src: url('//cgcdn.s3.amazonaws.com/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('//cgcdn.s3.amazonaws.com/fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
-       url('//cgcdn.s3.amazonaws.com/fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('//cgcdn.s3.amazonaws.com/fonts/Gotham-Bold.svg#6a327a217ddd10461b1acdc4d224fee0') format('svg'); /* Legacy iOS */
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.eot');
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.woff') format('woff'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.ttf') format('truetype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.svg') format('svg');
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'United';
-  src: url('//cgcdn.s3.amazonaws.com/fonts/UnitedItalicCond-Heavy.eot'); /* IE9 Compat Modes */
-  src: url('//cgcdn.s3.amazonaws.com/fonts/UnitedItalicCond-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('//cgcdn.s3.amazonaws.com/fonts/UnitedItalicCond-Heavy.woff') format('woff'), /* Modern Browsers */
-       url('//cgcdn.s3.amazonaws.com/fonts/UnitedItalicCond-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('//cgcdn.s3.amazonaws.com/fonts/UnitedItalicCond-Heavy.svg#12a5ade78f6ca396faf7728fcfcd2c6d') format('svg'); /* Legacy iOS */
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/uniteditaliccondheavy.eot');
+  src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/uniteditaliccondheavy.eot?#iefix') format('embedded-opentype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/uniteditaliccondheavy.woff') format('woff'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/uniteditaliccondheavy.ttf') format('truetype'),
+       url('//cgcdn.s3.amazonaws.com/global-ui/fonts/uniteditaliccondheavy.svg') format('svg');
   font-style: italic;
   font-weight: 700;
 }

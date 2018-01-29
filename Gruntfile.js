@@ -38,6 +38,14 @@ module.exports = function (grunt) {
                     'dist/css/cg-global-ui.min.css': ['src/css/reset.css', 'src/css/fonts.css', 'src/css/global.css'],
                 }
             }
+        },
+        copy: {
+            main: {
+                expand: true,
+                cwd: 'src',
+                src: 'fonts/*',
+                dest: 'dist/'
+            }
         }
     });
 
@@ -45,8 +53,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Default task.
-    grunt.registerTask('default', ['concat', 'uglify', 'cssmin']);
+    grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'copy']);
 
 };
