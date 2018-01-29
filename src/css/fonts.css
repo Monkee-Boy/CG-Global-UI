@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'GothamBook';
+  font-family: 'Gotham';
   src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.eot');
   src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
        url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Book.woff') format('woff'),
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-  font-family: 'GothamBold';
+  font-family: 'Gotham';
   src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.eot');
   src: url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
        url('//cgcdn.s3.amazonaws.com/global-ui/fonts/Gotham-Bold.woff') format('woff'),
