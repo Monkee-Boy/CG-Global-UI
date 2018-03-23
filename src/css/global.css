@@ -1,0 +1,98 @@
+/*--------------------------
+BUTTONS 
+--------------------------*/
+.btn {
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 60px;
+    margin: 10px;
+    letter-spacing: 2px;
+    display: inline-block;
+    opacity: 1;
+    transition: .15s linear all;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.btn--primary {
+    border-color: #c8102e;
+    background: #c8102e;
+}
+
+.btn--secondary {
+    background-color: #263746;
+    border-color: #263746;
+}
+
+.btn--light {
+    background-color: #EDEDED;
+    border-color: #EDEDED;
+}
+
+.btn--dark {
+    background-color: #231F20;
+    border-color: #231F20;
+}
+
+.btn--disabled {
+    background-color: #99999a;
+    border-color: #99999a;
+}
+
+.btn--white {
+    background-color: white;
+    border-color: white;
+}
+
+.btn__primary--outline {
+    color: #c8102e;
+    background-color: transparent !important;
+}
+
+.btn__secondary--outline {
+    color: #263746;
+    background-color: transparent !important;
+}
+
+.btn__dark--outline {
+    color: #231F20;
+    background-color: transparent !important;
+}
+
+.btn__light--outline {
+    color: #EDEDED;
+    background-color: transparent !important;
+}
+
+.btn__disabled--outline {
+    color: #99999a;
+    background-color: transparent !important;
+}
+
+.btn__white--outline {
+    color: white;
+    background-color: transparent !important;
+}
+
+.btn--large {
+    font-size: 17px;
+    padding-top: 19.5px;
+    padding-bottom: 19.5px;
+}
+
+.btn--small {
+    font-size: 12px;
+    padding: 9px 15px;
+    letter-spacing: 1px;
+}
