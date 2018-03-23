@@ -8,7 +8,7 @@ The branching structure follows a common pattern of working branch, develop bran
 |  |  |-- feature branch
 ```
 
-In this pattern, the master branch is the working branch, so **no code changes can be made directly on this branch**. To merge code to master, it must first be merged into the develop branch via a feature branch. Then, you can make a pull request from develop into master to syncronize the working branch with the develop branch.
+In this pattern, the master branch is the working branch, so **no code changes can be made directly on the working branch (master)**. To merge code to master, it must first be merged into the develop branch via a feature branch. Then, you can make a pull request from develop into master to syncronize the working branch with the develop branch.
 
 To maintain the integrity of the codebase, be sure to rebase from the develop branch regularly. At the very least, be sure you rebase before merging your feature branch into the develop branch.
 
