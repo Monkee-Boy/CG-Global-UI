@@ -27,7 +27,9 @@ To use the framework, add it to your project as a dependancy and link the files 
 The framework has 2 main files to consume which are available in the ```/dist``` directory of this repository: 
 ```
     /dist/css/cg-global-ui.min.css
-    /dist/js/cg-global-ui.min.css
+    /dist/js/cg-global-ui.min.js
 ```
 
 Unminified versions of these files are also available in those respective directories for testing purposes. However, the minified versions should always be used for production sites/apps.
+
+All font files and other media dependancies for the Global UI are imported directly into these files so there's no need to include those dependencies directly in your projects.
